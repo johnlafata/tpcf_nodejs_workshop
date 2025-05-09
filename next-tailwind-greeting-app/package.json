@@ -1,6 +1,6 @@
 {
   "name": "next-tailwind-greeting-app",
-  "version": "1.0.0",
+  "version": "1.22.22",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -22,7 +22,8 @@
     "typescript": "latest"
   },
   "engines": {
-    "node": "22.x.x"
+    "node": "22.x.x",
+    "yarn": "1.22.x",
+    "npm": "11.3.0"
   }
-
 }
