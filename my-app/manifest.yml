@@ -1,0 +1,8 @@
+---
+applications:
+  - name: tpcf_react
+# without the next line we get a 403 error
+    path: build/
+# buildpack is optional, this is the detected buildpack
+#    buildpack: staticfile_buildpack
+    memory: 256M    

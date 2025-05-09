@@ -1,0 +1,14 @@
+---
+applications:
+  - name: tpcf_react_next
+    buildpacks: 
+    - binary_buildpack 
+    - nodejs_buildpack
+    env:
+      BP_NODE_VERSION: "~20.0.0"
+#      YARN_VERSION: "~4.5.0"
+#      NODE_ENV: production
+#      YARN_PRODUCTION: true
+    readiness-health-check-type: process
+    path: .
+#    memory: 256M    

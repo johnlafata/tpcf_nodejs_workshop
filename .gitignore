@@ -1,0 +1,8 @@
+.DS_store
+my-app/build
+my-app/node_modules
+my-app/.env
+next-tailwind-greeting-app/.next
+next-tailwind-greeting-app/node_modules
+next-tailwind-greeting-app/package-lock.json
+next-tailwind-greeting-app/.env
