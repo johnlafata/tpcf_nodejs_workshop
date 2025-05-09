@@ -7,16 +7,25 @@ This project is a simple React application built with Next.js and styled using T
 cd next-tailwind-greeting-app
 ```
 
+### build with node version 22.13.1
+```
+nvm install 22.13.1
+nvm use 22.13.1
+```
+
 Review engine specifications in package.json
 ```json
   "engines": {
-    "node": "22.x.x"
+    "node": "22.x.x",
+    "yarn": "1.22.x",
+    "npm": "11.3.0"
   }
 ```
 
 build and deploy the application to Cloud Foundry:
 ```bash
 npm install
+yarn build
 cf push 
 ```
 
