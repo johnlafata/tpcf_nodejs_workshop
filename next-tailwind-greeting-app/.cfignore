@@ -1,0 +1,15 @@
+# Exclude Yarn Berry files - CF buildpack only supports Yarn 1.x
+yarn.lock
+.yarn/
+.yarnrc.yml
+.pnp.cjs
+.pnp.loader.mjs
+
+# Exclude local build/install artifacts
+node_modules/
+
+# Exclude dev files
+*.log
+.env.local
+.env.development
+.env.test

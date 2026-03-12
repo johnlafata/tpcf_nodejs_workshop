@@ -1,3 +1,6 @@
 ---
 applications:
   - name: tpcf_react_next
+    memory: 1G
+    buildpacks:
+      - nodejs_buildpack

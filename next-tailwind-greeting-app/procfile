@@ -1,3 +1,1 @@
-# web: 
-# worker:  
-custom: yarn set version berry
+web: npx next start -p $PORT
